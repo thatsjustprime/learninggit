@@ -29,7 +29,7 @@ if ( defined $opt_d ) { our $debug = "yes"; }
 our $origin="origin/master";
 our $master="master";
 our $git="/usr/bin/git";
-our $logfile="/var/log/repowatch.log";
+our $logfile="~/repowatch.log";
 our $gitrev="rev-parse";
 our $gitwho="--format=%cn";
 our $gitwhen="--format=%ct";
